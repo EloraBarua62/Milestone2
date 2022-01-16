@@ -25,7 +25,7 @@
             }
         }
 
-        @media (min-width: 481px) {
+        @media (min-width: 769px) {
             .grid-present {
                 grid-template-columns: repeat(3, 1fr);
             }
@@ -34,9 +34,20 @@
 </head>
 
 <body>
-    <header>Influencer Products Gallary</header>
+    <header>
+        <h3>Influencer Products Gallary</h3>
+        <nav>
+                <a href="">Home</a>
+                <a href="">Content</a>
+                <a href="">Support</a>
+                <a href="">Contact</a>
+                <i class="fas fa-user-tie"></i>
+                <i class="fas fa-sign-out-alt"></i>
+            
+        </nav>
+    </header>
     <main>
-        <section class="first-section">
+        <section class="first-section gap">
             <article>
                 <h1>Be a Newbie Influencer</h1>
                 <p>Influencer marketing is a form of collaboration that occurs when brands partner with influencers to
@@ -52,8 +63,8 @@
         </section>
 
 
-        <section>
-            <h2>Required Products</h2>
+        <section class="second-section gap">
+            <h2 id="center">Required Products</h2>
             <section class="grid-present">
                 <article class="box-container">
                     <img src="images/tripod.png" alt="">
@@ -69,31 +80,31 @@
                 </article>
                 <article class="box-container">
                     <img src="images/airpod.png" alt="">
-                    <h2>Flex Tripod</h2>
-                    <h2>$50.48</h2>
+                    <h2>Airpod</h2>
+                    <h2>$90.48</h2>
                     <span class="star-color"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                             class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i
                             class="far fa-star"></i></span>
-                    <h3>4.99</h3>
+                    <h3>3.99</h3>
                     <h3>Wordwide shifting
                         available.
                         Buyers protection possible!</h3>
                 </article>
                 <article class="box-container">
                     <img src="images/drone.png" alt="">
-                    <h2>Flex Tripod</h2>
-                    <h2>$50.48</h2>
+                    <h2>Drone</h2>
+                    <h2>$50</h2>
                     <span class="star-color"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                             class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i
                             class="far fa-star"></i></span>
-                    <h3>4.99</h3>
+                    <h3>4</h3>
                     <h3>Wordwide shifting
                         available.
                         Buyers protection possible!</h3>
                 </article>
                 <article class="box-container">
                     <img src="images/lights.png" alt="">
-                    <h2>Flex Tripod</h2>
+                    <h2>Light</h2>
                     <h2>$50.48</h2>
                     <span class="star-color"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                             class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i
@@ -105,31 +116,31 @@
                 </article>
                 <article class="box-container">
                     <img src="images/mic.png" alt="">
-                    <h2>Flex Tripod</h2>
-                    <h2>$50.48</h2>
+                    <h2>Mic</h2>
+                    <h2>$100</h2>
                     <span class="star-color"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                             class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i
                             class="far fa-star"></i></span>
-                    <h3>4.99</h3>
+                    <h3>4</h3>
                     <h3>Wordwide shifting
                         available.
                         Buyers protection possible!</h3>
                 </article>
                 <article class="box-container">
                     <img src="images/single-light.png" alt="">
-                    <h2>Flex Tripod</h2>
+                    <h2>Light</h2>
                     <h2>$50.48</h2>
                     <span class="star-color"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                             class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i
                             class="far fa-star"></i></span>
-                    <h3>4.99</h3>
+                    <h3>3.99</h3>
                     <h3>Wordwide shifting
                         available.
                         Buyers protection possible!</h3>
                 </article>
                 <article class="box-container">
                     <img src="images/action.png" alt="">
-                    <h2>Flex Tripod</h2>
+                    <h2>Set Up</h2>
                     <h2>$50.48</h2>
                     <span class="star-color"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                             class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i
@@ -141,7 +152,7 @@
                 </article>
                 <article class="box-container">
                     <img src="images/setup.png" alt="">
-                    <h2>Flex Tripod</h2>
+                    <h2>Stand</h2>
                     <h2>$50.48</h2>
                     <span class="star-color"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                             class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i
@@ -153,7 +164,7 @@
                 </article>
                 <article class="box-container">
                     <img src="images/single-light.png" alt="">
-                    <h2>Flex Tripod</h2>
+                    <h2>Single Light</h2>
                     <h2>$50.48</h2>
                     <span class="star-color"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                             class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i
@@ -163,23 +174,29 @@
                         available.
                         Buyers protection possible!</h3>
                 </article>
-                <div class="decoration">
-                    <a href="#">See more <i class="fas fa-arrow-right"></i></a>
-                </div>
-
             </section>
+            <a href="#">See more <i class="fas fa-arrow-right"></i></a>
         </section>
-        
+
+        <section class="last-section gap">
+            <article class="image-hover">
+                <img src="images/iphone2.png" alt="">
+            </article>
+            <article>
+                <h2>Camara Expert</h2>
+                <p>It's easier to use, more versatile, identical in sharpness, has a much higher-quality lens and sensor, and shoots better
+                in low light</p>
+                <button type="submit">Explore <i class="fas fa-arrow-right"></i></button>
+            </article>
+
+        </section>
     </main>
     <footer>
-        <div>
-            <h2>Influencer products</h2>
-            <h4>Copyright © 2020 influencer products</h4>
-            <h4>All rights reserved</h4>
-            <i class="fab fa-instagram-square"></i> <i class="fab fa-facebook"></i> <i class="fab fa-youtube"></i> <i
-                class="fab fa-twitter"></i>
-        </div>
-
+        <h2>Influencer products</h2>
+        <h4>Copyright © 2020 influencer products</h4>
+        <h4>All rights reserved</h4>
+        <i class="fab fa-instagram-square"></i> <i class="fab fa-facebook"></i> <i class="fab fa-youtube"></i> <i
+            class="fab fa-twitter"></i>
     </footer>
     <script src="https://kit.fontawesome.com/aaa6db36b3.js" crossorigin="anonymous"></script>
 </body>

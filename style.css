@@ -9,10 +9,19 @@ body{
 }
 
 header{
-    font-size: 30px;
-    font-weight: 900;
     margin-top: 100px;
     margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+nav{    
+    padding-left: 5px;
+    color: black;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
 }
 .p-font{
     font-size: 15px;
@@ -30,14 +39,22 @@ h3{
     font-size: 20px;
     font-weight: bolder;
 }
-article{
+main{
     margin: 100px;
+   
 }
 button{
     padding: 10px 40px;
     color: white;
     background-color: green;
     border: 1px solid;
+    
+}
+.gap{
+     margin-bottom: 100px;
+}
+
+.first-section button{
     border-radius: 20px;
 }
 
@@ -46,40 +63,72 @@ button{
     justify-content:space-between;
 }
 
+#center{
+    display: flex;
+    justify-content: center;
+}
+
+
+.second-section a{
+    color: green;
+    text-decoration: none;
+    margin-right: 100px;
+    float: right;
+}
+
 .star-color i{
     color: green;
 }
 
-a{
-    color: green;
-    text-decoration: none;
-}
-.decoration{
-    float: right;
-}
 .grid-present{
     display: grid;
-    justify-content:space-between;
-
+    justify-content: center;
 }
 .box-container{
     width: 300px;
     height: 600px;
     padding: 10px;
+    margin-left: 50px;
+    margin-bottom: 50px;
     box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.last-section{
+    display: flex;
+    justify-content:center;
+    background-color: rgba(219, 214, 214, 0.301);
+}
+.last-section article{
+    width: 50%;
+    padding-right: 50px;
+}
+.image-hover{
+    display: flex;
+    justify-content: space-between;
+}
+.image-hover img{
+    width: 400px;
+    height: 200px;
+    margin-right: 100px;
+    transition: transform 2s;
+}
+
+.image-hover img:hover{
+    transform: scale(1.5);
 }
 
 footer{
     color: oldlace;
     text-align: center;
     background-color: rgb(1, 46, 1);
-    padding: 3px;
-    height: 200px;
+
 }
 footer i{
     font-size: 20px;
     padding-left: 10px;
 }
+
+
+
 
 
 
