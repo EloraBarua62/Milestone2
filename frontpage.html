@@ -22,12 +22,29 @@
         @media (max-width: 480px) {
             .grid-present {
                 grid-template-columns: 1fr;
+                
+            }
+            .last-section{
+                display: flex;
+                flex-direction: column;
             }
         }
-
+        @media (max-width: 992px) and (min-width: 689px) {
+            .grid-present {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .last-section{
+                display: flex;
+                flex-direction: column;
+            }
+        }
         @media (min-width: 769px) {
             .grid-present {
                 grid-template-columns: repeat(3, 1fr);
+            }
+            .last-section{
+                display: flex;
+                flex-direction: column;
             }
         }
     </style>
@@ -37,16 +54,19 @@
     <header>
         <h3>Influencer Products Gallary</h3>
         <nav>
-                <a href="">Home</a>
-                <a href="">Content</a>
-                <a href="">Support</a>
-                <a href="">Contact</a>
-                <i class="fas fa-user-tie"></i>
-                <i class="fas fa-sign-out-alt"></i>
-            
+            <a href="">Home</a>
+            <a href="">Content</a>
+            <a href="">Support</a>
+            <a href="">Contact</a>
+            <i class="fas fa-user-tie"></i>
+            <i class="fas fa-sign-out-alt"></i>
+
         </nav>
     </header>
+
+
     <main>
+        <!--First Section-->
         <section class="first-section gap">
             <article>
                 <h1>Be a Newbie Influencer</h1>
@@ -63,6 +83,7 @@
         </section>
 
 
+        <!--Second Section-->
         <section class="second-section gap">
             <h2 id="center">Required Products</h2>
             <section class="grid-present">
@@ -178,19 +199,26 @@
             <a href="#">See more <i class="fas fa-arrow-right"></i></a>
         </section>
 
+
+        <!--Third Section-->
         <section class="last-section gap">
             <article class="image-hover">
                 <img src="images/iphone2.png" alt="">
             </article>
             <article>
                 <h2>Camara Expert</h2>
-                <p>It's easier to use, more versatile, identical in sharpness, has a much higher-quality lens and sensor, and shoots better
-                in low light</p>
+                <p>It's easier to use, more versatile, identical in sharpness, has a much higher-quality lens and
+                    sensor, and shoots better
+                    in low light</p>
                 <button type="submit">Explore <i class="fas fa-arrow-right"></i></button>
             </article>
 
         </section>
     </main>
+
+
+
+    <!--Footer-->
     <footer>
         <h2>Influencer products</h2>
         <h4>Copyright © 2020 influencer products</h4>

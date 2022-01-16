@@ -102,7 +102,7 @@ button{
     padding-right: 50px;
 }
 .image-hover{
-    display: flex;
+    
     justify-content: space-between;
 }
 .image-hover img{
